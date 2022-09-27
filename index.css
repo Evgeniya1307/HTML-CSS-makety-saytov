@@ -38,6 +38,26 @@ body {
     font-family: "League Spartan", sans-serif;
 }
 
-.header{
+.header-container {
     display: flex; /*делю на колонки */
+    width: 1440px;
+    padding-top: 104px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom: 168px; /*снизу*/
+    background-color: #f8f8f8;
+}
+
+.header-title {
+    margin-bottom: 53px;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.header-subtitle{
+    font-size: 250px;
+    line-height: 230px;
+    margin-bottom: 43px;/*отступ до следующего элемента*/
+
 }
