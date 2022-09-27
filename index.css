@@ -29,10 +29,6 @@ ul {
     list-style: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 body {
     font-family: "League Spartan", sans-serif;
@@ -80,7 +76,26 @@ line-height: 50px;/*Высота строки — это расстояние п
     color: #ffffff;
     text-decoration: none;
     font-size: 32px;
-    line-height: 30px;
+    line-height: 82px; /*будет выровнян по центру сделала чуть больше*/
     text-align: center;/*выровнять текст внутри по горизонтали*/
-    padding-left: 135px;
 }
+
+.price{
+    width: 143px;
+    height: 82px;
+    background-color: #ffffff;
+    color: #161515;
+    text-decoration: none;
+    font-size: 38px;
+    line-height: 82px;
+    text-align: center;
+}
+
+.header-img {  /*картинка часов mor705*/
+    display: block;
+    width: 408px;
+    height: 720px;
+    margin-top: -104px;
+    margin-left: -90px;
+    overflow-x: hidden;/*убирает горизон скрол*/
+  }
