@@ -55,9 +55,32 @@ body {
     font-weight: 300;
 }
 
-.header-subtitle{
+.header-subtitle {
+    margin-bottom: 43px; /*отступ до следующего элемента*/
     font-size: 250px;
     line-height: 230px;
-    margin-bottom: 43px;/*отступ до следующего элемента*/
+    
+}
 
+.description {
+    margin-bottom: 61px; /*отступ до следующего элемента*/
+    font-size: 32px;
+line-height: 50px;/*Высота строки — это расстояние по вертикали между двумя строками текста*/
+}
+
+.buy-wrapper{
+    display: flex;
+}
+
+.buy-link{
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: #161515;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;/*выровнять текст внутри по горизонтали*/
+    padding-left: 135px;
 }
