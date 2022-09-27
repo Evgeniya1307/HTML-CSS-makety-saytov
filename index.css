@@ -99,3 +99,77 @@ line-height: 50px;/*Высота строки — это расстояние п
     margin-left: -90px;
     overflow-x: hidden;/*убирает горизон скрол*/
   }
+
+  .popular-title{
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 43px;
+    font-weight: 300;
+  }
+
+  .models-title{
+    text-align: center;
+    font-size: 72px;
+    line-height: 81px;
+    font-weight: 400;/* Толщина шрифта*/
+    margin-bottom: 84px;
+}
+
+.item-img-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: center;/*выравнивание содержимого*/
+    width: 417px;
+    height: 630px;
+    background-color:#F8F8F8;
+    margin-bottom: 67px;
+}
+
+.item-wrapper {
+    margin: 0 auto; /*выровняла по центру картинку*/
+    width: 417px;
+    margin-bottom: 85px;
+}
+
+
+
+.item-title{
+text-align: center;
+font-size: 32px;
+line-height: 30px;
+font-weight: 400;
+margin-bottom: 17px;
+}
+
+.item-description {
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .product-description-wrapper {
+    margin: 0 auto;
+    width: 417px;
+    margin-bottom: 85px;
+    margin-top: 100px;
+  }
+  .product-description-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 60px;
+  margin-bottom: 58px;
+  font-weight: 400;
+  }
+  .product-description {
+    text-align: center;
+    font-size: 24px;
+    line-height: 41px;
+    font-weight: 300;
+  }
+  .product-description-link {
+    color: #BB8B5D; /*на ссылку*/
+  }
+
+
+
